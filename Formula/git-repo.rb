@@ -1,11 +1,11 @@
 class GitRepo < Formula
   desc "Quickly open repo urls in the browser"
-  version "0.1.1"
+  version "0.2.0"
 
   homepage "https://github.com/josa42/git-repo"
   head "https://github.com/josa42/git-repo.git"
   url "https://github.com/josa42/git-repo/archive/#{version}.tar.gz"
-  sha256 "e6d1842a881da383a4514b72de92dc6aa6582da2fe70112e1689e6f305156bf6"
+  sha256 "e4c18cfd78e0a973daeb210807fa546830ff35474319f81a11373e8c988599d5"
 
   depends_on "go" => :build
   depends_on "glide" => :build
