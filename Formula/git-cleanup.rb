@@ -1,11 +1,11 @@
 class GitCleanup < Formula
   desc ""
-  version "0.1.0"
+  version "0.1.1"
 
   homepage "https://github.com/josa42/git-cleanup"
   head "https://github.com/josa42/git-cleanup.git"
   url "https://github.com/josa42/git-cleanup/archive/#{version}.tar.gz"
-  sha256 "f7e3556e08acb449a3f69166a5206b0769135b85e36d53cab258783e32e6f387"
+  sha256 "b51352f27909278447a48442e5e8daa28dfe7f5c97e2d688f6a09b41f2f117e3"
 
   depends_on "go" => :build
   depends_on "glide" => :build
