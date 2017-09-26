@@ -5,7 +5,7 @@ class GitBusFactor < Formula
   homepage "https://github.com/josa42/git-bus-factor"
   head "https://github.com/josa42/git-bus-factor.git"
   url "https://github.com/josa42/git-bus-factor/archive/#{version}.tar.gz"
-  sha256 "3c6100b82a8914b2f4e1f69fe87f56a1819d4a35fa6345787678ceebfd570c34"
+  sha256 "bb59dae120fa35f9387d9c88fe0227ce3da4f649ad879dd6d4c4ea49021b05ab"
 
   depends_on "go" => :build
 
