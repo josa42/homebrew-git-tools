@@ -1,4 +1,4 @@
-class GitCleanup < Formula
+class GitFeature < Formula
   desc ""
   # version "0.1.0"
 
