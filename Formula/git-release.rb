@@ -1,11 +1,11 @@
 class GitRelease < Formula
   desc "Quickly tag and push new versions"
-  version "0.8.0"
+  version "0.10.0"
 
   homepage "https://github.com/josa42/git-release"
   head "https://github.com/josa42/git-release.git"
-  url "https://github.com/josa42/git-release/archive/#{version}.tar.gz"
-  sha256 "834466fa8a7c0fd455f58ce247c847610711a976525cccf1b4ff554d108bb51c"
+  url "https://github.com/josa42/git-release/archive/v#{version}.tar.gz"
+  sha256 "d854405e5f0eee6a6c55d42663dbf988827815877e3e948c0c4b2bd3c91805a3"
 
   depends_on "go" => :build
 

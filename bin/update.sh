@@ -32,6 +32,8 @@ fi
 rm $filePath
 mv $filePath.tmp $filePath
 
+brew unlink $filePath || exit 1
+brew install $filePath || exit 1
 brew test $filePath || exit 1
 
 git add $filePath
