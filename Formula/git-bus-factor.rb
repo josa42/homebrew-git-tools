@@ -1,11 +1,11 @@
 class GitBusFactor < Formula
   desc ""
-  version "0.3.0"
+  version "0.4.0"
 
   homepage "https://github.com/josa42/git-bus-factor"
   head "https://github.com/josa42/git-bus-factor.git"
-  url "https://github.com/josa42/git-bus-factor/archive/#{version}.tar.gz"
-  sha256 "272b7c2c7990564bf3bb4d4951834d9558773af1f4d9f73c1191ba49dd9f5f50"
+  url "https://github.com/josa42/git-bus-factor/archive/v#{version}.tar.gz"
+  sha256 "a5df2097cee6b97aeefd04f196d1b5e2d7a6b290f3624ecf583c54eb7d742cda"
 
   depends_on "go" => :build
 
