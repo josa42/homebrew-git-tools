@@ -1,0 +1,19 @@
+name: Main
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  Test:
+    strategy:
+      matrix:
+        os: [macos-latest]
+        # macos-11.0
+        package: [git-bus-factor, git-cleanup, git-cleanup, git-release, git-repo]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew --version
+      - run: brew install ./Formula/${{ matrix.package }}.rb
+      - run: brew test ./Formula/${{ matrix.package }}.rb
