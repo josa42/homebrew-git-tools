@@ -10,7 +10,7 @@ class GitBusFactor < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", bin/"git-bus-factor"
+    system "go", "build", *std_go_args
   end
 
   test do
